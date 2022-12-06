@@ -1,0 +1,180 @@
+/*Fuentes*/
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+/*Variables*/
+:root {
+  --primaryColor: #f3ed56;
+  --secundaryColor: #ffffff;
+  --Negro: #000000;
+  --GrisClaro: #d9d9d9;
+  --GrisOscuro: #5e5757;
+  --font-family: "Dosis", sans-serif;
+}
+
+header {
+  width: 100%;
+  position: relative;
+  background: var(--GrisOscuro);
+  
+}
+.wasap{
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  z-index: 999;
+}
+
+#inicio {
+  width: 100%;
+  position: relative;
+  background-color: #000000;
+}
+
+#inicio h1 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 700px;
+  margin-left: 200px;
+}
+
+#inicio h1 span{
+
+  color: var(--primaryColor);
+
+}
+header #inicio button {
+  background-color: #f3ed56;
+  position: relative;
+  width: 30%;
+  margin-left: 300px;
+  font-weight: 2000;
+}
+
+main #perfil .cont-left img {
+  width: 500px;
+  height: 600px;
+  margin: 20px;
+  border: 5px solid #000000;
+  border-radius: 20px;
+}
+
+main #perfil {
+  margin: 10px 20px;
+}
+
+main #perfil .cont-right h2 {
+  text-align: center;
+  margin: 40px 40px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #000000;
+}
+main #perfil .cont-right h2 span {
+  color: var(--primaryColor);
+}
+
+main #perfil .cont-right p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 150;
+}
+
+main #estudios {
+  background-color: #000000;
+  max-width: 100%;
+  height: 600px;
+}
+main #estudios h2 {
+  color: var(--primaryColor);
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+
+main #estudios .card-body {
+  padding: 10px;
+  margin: 50px 20px;
+}
+main #estudios .card-body h5 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#portafolio {
+  width: 100%;
+  position: relative;
+  background: #363639;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#portafolio h2 {
+  text-align: center;
+  color: #f3ed56;
+  font-size: 60px;
+  font-weight: 700;
+}
+#habilidades{
+  background: #aaaa;
+}
+#habilidades h2{
+
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  font-size: 60px;
+}
+.ba {
+
+  padding: 30px;
+
+}
+#habilidades p {
+  width: 30%;
+  margin-bottom: 0%;
+  font-size: 30px;
+  font-weight: 500;
+  
+}
+
+#habilidades .ba .progress {
+  width: 50%;
+  /* margin-top: 5px; */
+}
+
+.ba .progress-bar {
+  background-color: var(--primaryColor);
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+#habilidades .codigo{
+  color: #000000;
+}
+.ba .p {
+  width: 30%;
+  color: #000000;
+}
+
+#contacto {
+  background:#363639;
+  padding: 30px;
+}
+#contacto h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #f3ed56;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#contacto h3 {
+  color: #ffffff;
+}
